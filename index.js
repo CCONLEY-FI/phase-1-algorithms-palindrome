@@ -1,9 +1,13 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const reversedWord = word.split('').reverse().join('');
+  return word === reversedWord;
 }
+isPalindrome("racecar");
 
 /* 
-  Add your pseudocode here
+declare a const reversedWord and assign it to the word argument split into an array, reversed, and joined back into a string
+return the word argument strictly equal to the reversedWord
 */
 
 /*
